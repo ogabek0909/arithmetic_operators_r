@@ -3,7 +3,7 @@
 
 import 'dart:math';
 
-double func(int a, int b) {
+num func(int a, int b) {
   return ((a + 3) / 4 + (b + a) / 4) * ((a * b) / pow(b, 2));
 }
 
