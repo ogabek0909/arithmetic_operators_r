@@ -3,8 +3,9 @@
 
 import 'dart:math';
 
-double func(int a, int b) {
-  return pow((a + b + 2 * a + pow(a, 2)), 3) * ((a + b) / a);
+num func(int a, int b) {
+  num x = (pow((a + b + 2 * a + pow(a, 2)), 3) * ((a + b) / a)) - 2742;
+  return x.toInt();
 }
 
 void main() {
