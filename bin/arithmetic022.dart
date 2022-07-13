@@ -3,9 +3,9 @@
 import 'dart:math';
 
 num func(int a, int b, int c) {
-  return (2 * pow(b, 2) - a) / (pow(a, 3) - pow(c, 2));
+  return -(2 * pow(b, 2) - a) / (pow(a, 3) - pow(c, 2));
 }
 
 void main() {
-  print(func(5, 5, 3));
+  print(func(1, 11, 3));
 }
