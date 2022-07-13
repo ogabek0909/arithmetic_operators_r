@@ -4,7 +4,11 @@
 import 'dart:math';
 
 num func(int a, int b) {
-  return ((a + 3) / 4 + (b + a) / 4) * ((a * b) / pow(b, 2));
+  num x = ((a + 3) / 4 + (b + a) / 4) * ((a * b) / pow(b, 2));
+  if (x == 1.375) {
+    x = 1.375;
+  }
+  return x;
 }
 
 void main() {
