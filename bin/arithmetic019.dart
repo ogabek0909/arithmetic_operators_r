@@ -3,7 +3,8 @@
 import 'dart:math';
 
 double func(int a, int b) {
-  return pow(a, 2) + (2 * ((pow(a, 2) + pow(b, 2)) / (4 * a)));
+  double x = pow(a, 2) + (2 * ((pow(a, 2) + pow(b, 2)) / (4 * a)));
+  return x * 10 ~/ 1 / 10;
 }
 
 void main() {
