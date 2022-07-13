@@ -5,5 +5,5 @@ double func(int a, int b) {
 }
 
 void main() {
-  print(func(5, 5));
+  print(func(10, 2));
 }
