@@ -3,7 +3,7 @@
 import 'dart:math';
 
 num func(int a, int b) {
-  return 2 * pow(a, b);
+  return 2 * pow(a, b) + 26;
 }
 
 void main() {
