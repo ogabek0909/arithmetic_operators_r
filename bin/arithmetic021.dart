@@ -3,7 +3,11 @@
 import 'dart:math';
 
 double func(int a, int b, int c) {
-  return (2 * pow(b, 2)) / (a + pow(c, 2));
+  double x = (2 * pow(b, 2)) / (a + pow(c, 2));
+  if (x < 1) {
+    return x * 10 ~/ 1 / 10;
+  } else
+    return x;
 }
 
 void main() {
