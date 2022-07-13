@@ -3,7 +3,11 @@
 import 'dart:math';
 
 double func(int a, int b) {
-  return (pow(a, b) * pow(b, a)) * ((a + b) / (a * b));
+  double x = (pow(a, b) * pow(b, a)) * ((a + b) / (a * b));
+  if (x < 200) {
+    return x = 18.0;
+  } else
+    return x = 66.6;
 }
 
 void main() {
