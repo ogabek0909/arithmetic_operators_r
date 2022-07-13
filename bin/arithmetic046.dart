@@ -3,7 +3,8 @@
 import 'dart:math';
 
 double func(int a, int b) {
-  return (a * b - 2 * a) / (a + b);
+  double x = (a * b - 2 * a) / (a + b);
+  return x * 10 ~/ 1 / 10;
 }
 
 void main() {
